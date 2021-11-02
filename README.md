@@ -8,3 +8,12 @@
 - `git commit`: opens up text editor for you to type commit message
     - `git commit -m <MESSAGE>`: allows you to write the commit message in a single command
 
+- `HEAD`: telling you where you are looking in the history
+- `git diff`: show you the difference from all your files to last commit
+    - `git diff HEAD <FILE>`: only diff the <FILE>
+    - `git diff HEAD~2`: diff current state from 2 commits ago
+    - `git diff <HASH>`: diff current state from <HASH> location
+
+- `git log`: looks at your history log
+    - `git log --oneline`: gives you the one line version of log
+
