@@ -1,4 +1,4 @@
-# 2021-11-02-git_basics
+# 2021-11-02: Git Basics
 
 - `git init`: create a git repo in current folder.
     - only need to do this once, do not nest repos
@@ -23,3 +23,6 @@
     - `git checkout main`: to back to main branch
     - `git switch main`, `git checkout master`: might do the same thing
 
+# Remotes
+    
+GitHub is an example of a remote
