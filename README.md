@@ -17,3 +17,9 @@
 - `git log`: looks at your history log
     - `git log --oneline`: gives you the one line version of log
 
+- `git checkout <HASH> <FILE>`: revert <FILE> to the version in <HASH>
+- `git status`: read what git status tells you to revert a file and/or un-stage a file
+- `git checkout <HASH>`: move ALL the files to their versions in <HASH>
+    - `git checkout main`: to back to main branch
+    - `git switch main`, `git checkout master`: might do the same thing
+
